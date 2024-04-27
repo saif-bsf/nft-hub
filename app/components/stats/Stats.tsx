@@ -5,6 +5,7 @@ import StatsItem from "./StatsItem";
 
 const Stats = () => {
   const { stats } = data;
+  
   return (
     <Box className="flex flex-1 justify-around flex-col items-center md:flex-row">
       {stats.map((stat) => (
