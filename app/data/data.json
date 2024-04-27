@@ -1,0 +1,80 @@
+{
+  "carousel": {
+    "title": "Nfthub's Collection",
+    "cards": [
+      {
+        "image": "/NFT1.png",
+        "title": "#Metaverse",
+        "author": "By TheSalvare"
+      },
+      {
+        "image": "/NFT2.png",
+        "title": "#Polly Doll",
+        "author": "By TheNative"
+      },
+      {
+        "image": "/NFT3.png",
+        "title": "#Alec Art",
+        "author": "By GeorgeZvic"
+      },
+      {
+        "image": "/NFT4.png",
+        "title": "#Toxic Poeth",
+        "author": "By Yzelip"
+      }
+    ]
+  },
+  "features": {
+    "title": "Why choose us?",
+    "cards": [
+      {
+        "svg": "box.svg",
+        "subTitle": "Huge collection",
+        "description": "A collection of 890 unique Nerkos built to go beyond the digital space."
+      },
+      {
+        "svg": "check.svg",
+        "subTitle": "High quality",
+        "description": "The nerko’s collection includes dozens of rare costumes ands colorways of artist"
+      },
+      {
+        "svg": "certificate.svg",
+        "subTitle": "Top resource",
+        "description": "Tasty design resources made with care for each pixel. NFTs and game resources."
+      },
+      {
+        "svg": "community.svg",
+        "subTitle": "Big community",
+        "description": "Be part of a community of nerko owners and create user generated items."
+      }
+    ]
+  },
+  "stats": [
+    {
+      "title": "Wallets Connected",
+      "value": "400k+"
+    },
+    {
+      "title": "Wallets Connected",
+      "value": "20k+"
+    },
+    {
+      "title": "Creative Artists",
+      "value": "230+"
+    },
+    {
+      "title": "Estimated Value",
+      "value": "2.5x"
+    }
+  ],
+  "product5050": {
+    "title": "How it works!",
+    "products": [
+      {
+        "image": "",
+        "subTitle": "",
+        "description": ""
+      }
+    ]
+  }
+}
