@@ -221,5 +221,18 @@
     "title": "Let's start minting",
     "info": "Invest and manage all your NFTs at one place",
     "bannerImage": "/banner.png"
+  },
+  "footer": {
+    "title": "NFTHub",
+    "description": "Join our Discord channel or follow us on Twitter to keep up to date with our latest work and announcements",
+    "quickLinks": {
+      "title": "Quick  Link",
+      "links": ["About", "Collection", "Roadmap", "FAQs"]
+    },
+    "communityLinks": {
+      "title": "Community",
+      "links": ["How it works!", "Blockchain", "Get in touch"]
+    },
+    "copyright": "Copyright © 2024 Vidnik All Rights Reserved."
   }
 }
