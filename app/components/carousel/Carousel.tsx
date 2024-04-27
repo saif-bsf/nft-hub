@@ -10,7 +10,7 @@ const Carousel = () => {
   return (
     <Box>
       <Heading title={title} />
-      <Box className="flex justify-between">
+      <Box className="flex  overflow-x-auto flex-nowrap">
         {cards.map((card) => (
           <Card
             key={card.title}
