@@ -8,7 +8,7 @@ const Carousel = () => {
   const { title, cards } = carousel;
   return (
     <Box>
-      <Typography className="text-4xl font-bold text-center my-12">
+      <Typography className="text-5xl font-bold text-center my-12">
         {title}
       </Typography>
       <Box className="flex justify-between">

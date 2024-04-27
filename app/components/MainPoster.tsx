@@ -6,14 +6,14 @@ const MainPoster = () => {
   return (
     <Box data-aos="fade-up" className="py-10 flex flex-1 w-full">
       <Box className="w-full flex flex-col justify-center">
-        <Typography className="font-bold text-4xl">
+        <Typography className="font-bold text-5xl">
           High Quality NFT Collection
         </Typography>
         <Typography className="my-5">
           A 890 piece custom Nfthub's collection is joining the NFT space on
           Opensea.
         </Typography>
-        <Button variant="contained" className="bg-primary max-w-44 border-r-8">
+        <Button variant="contained" className="bg-primary max-w-44 rounded-2xl">
           View in OPENSEA
         </Button>
         <Box className="flex my-8">
