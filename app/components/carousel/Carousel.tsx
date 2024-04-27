@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import data from "@/app/data/data.json";
 import Card from "./Card";
 import Heading from "../basic-components/Heading";
@@ -7,6 +7,7 @@ import Heading from "../basic-components/Heading";
 const Carousel = () => {
   const { carousel } = data;
   const { title, cards } = carousel;
+
   return (
     <Box id="Collection">
       <Heading title={title} />
