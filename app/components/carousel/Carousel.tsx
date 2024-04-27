@@ -2,15 +2,14 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import data from "@/app/data/data.json";
 import Card from "./Card";
+import Heading from "../basic-components/Heading";
 
 const Carousel = () => {
   const { carousel } = data;
   const { title, cards } = carousel;
   return (
     <Box>
-      <Typography className="text-5xl font-bold text-center my-12">
-        {title}
-      </Typography>
+      <Heading title={title} />
       <Box className="flex justify-between">
         {cards.map((card) => (
           <Card

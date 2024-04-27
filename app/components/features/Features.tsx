@@ -2,15 +2,14 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import data from "@/app/data/data.json";
 import FeatureItem from "./FeatureItem";
+import Heading from "../basic-components/Heading";
 
 const Features = () => {
   const { features } = data;
   const { title, cards } = features;
   return (
     <Box>
-      <Typography className="text-5xl font-bold text-center my-12">
-        {title}
-      </Typography>
+      <Heading title={title} />
       <Box className="flex flex-1 gap-4">
         {cards.map((card) => (
           <FeatureItem
