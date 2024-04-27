@@ -1,28 +1,26 @@
 import * as React from "react";
-import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
+import data from "@/app/data/data.json";
+import { Link } from "@mui/material";
 
 export default function Header() {
-  const navItems = ["Home", "Collection", "Choose", "About", "Roadmap", "Blog"];
+  const { header } = data;
+  const { title, navLinks } = header;
+
   return (
-    <Box>
-      <AppBar position="static" className="bg-white">
-        <Toolbar>
-          <Typography variant="h6" component="div" className="text-black">
-            NFTHub
-          </Typography>
-          <Box className="flex flex-1 justify-center">
-            {navItems.map((item) => (
-              <Typography key={item} className="text-black mr-5">
-                {item}
-              </Typography>
-            ))}
-          </Box>
-        </Toolbar>
-      </AppBar>
+    <Box className="py-8 flex flex-1 justify-between">
+      <Typography variant="h6" component="div" className="text-black">
+        {title}
+      </Typography>
+      <Box className="flex gap-5">
+        {navLinks.map((link) => (
+          <Link key={link} className="text-black no-underline">
+            {link}
+          </Link>
+        ))}
+      </Box>
+      <Box></Box>
     </Box>
   );
 }
