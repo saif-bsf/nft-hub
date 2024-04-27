@@ -10,6 +10,7 @@ import SubscribeBox from "./SubscribeBox";
 import Roadmap from "./roadmap/Roadmap";
 import TeamProfile from "./team-profile/TeamProfile";
 import QuesAccordion from "./ques-accordion/QuesAccordion";
+import Banner from "./banner/Banner";
 
 const Body = () => {
   return (
@@ -32,6 +33,7 @@ const Body = () => {
       <Divider />
       <QuesAccordion />
       <Divider />
+      <Banner />
     </Box>
   );
 };
