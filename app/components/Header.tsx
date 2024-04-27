@@ -13,7 +13,7 @@ export default function Header() {
       <Typography variant="h6" component="div" className="text-black">
         {title}
       </Typography>
-      <Box className="flex gap-5">
+      <Box className="hidden md:flex gap-5">
         {navLinks.map((link) => (
           <Link
             href={"#" + link}
