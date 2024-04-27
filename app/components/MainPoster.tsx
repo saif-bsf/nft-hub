@@ -5,6 +5,7 @@ import React, { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import data from "@/app/data/data.json";
+import GradientButton from "./basic-components/GradientButton";
 
 const MainPoster = () => {
   const background = useRef(null);
@@ -46,7 +47,7 @@ const MainPoster = () => {
       >
         <Typography className="font-bold text-5xl">{title}</Typography>
         <Typography className="my-5 text-textColor">{description}</Typography>
-        <Button
+        {/* <Button
           variant="contained"
           className="bg-primary max-w-44 rounded-3xl p-2 main-poster-button"
           sx={{
@@ -60,7 +61,8 @@ const MainPoster = () => {
           }}
         >
           View in OPENSEA
-        </Button>
+        </Button> */}
+        <GradientButton btnText="View in OPENSEA" />
         <Box className="flex my-8">
           <Image
             src="/user-avatars.png"

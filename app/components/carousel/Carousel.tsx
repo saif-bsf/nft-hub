@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import data from "@/app/data/data.json";
 import Card from "./Card";
 import Heading from "../basic-components/Heading";
+import GradientButton from "../basic-components/GradientButton";
 
 const Carousel = () => {
   const { carousel } = data;
@@ -20,6 +21,9 @@ const Carousel = () => {
             author={card.author}
           />
         ))}
+      </Box>
+      <Box className="text-center my-8">
+        <GradientButton btnText="View Collection" />
       </Box>
     </Box>
   );

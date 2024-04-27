@@ -2,6 +2,7 @@ import { Box, Button, TextField, Typography } from "@mui/material";
 import React from "react";
 import data from "@/app/data/data.json";
 import Heading from "./basic-components/Heading";
+import GradientButton from "./basic-components/GradientButton";
 
 const SubscribeBox = () => {
   const { subscribeBox } = data;
@@ -30,21 +31,7 @@ const SubscribeBox = () => {
             },
           }}
         />
-        <Button
-          variant="contained"
-          className="py-2 rounded-3xl"
-          sx={{
-            background: "linear-gradient(45deg, #556cd6, #ff00ea)",
-            borderRadius: 3,
-            border: 0,
-            color: "white",
-            height: 48,
-            padding: "0 30px",
-            boxShadow: "0 3px 5px 2px rgba(0, 0, 0, .3)",
-          }}
-        >
-          Subscribe
-        </Button>
+        <GradientButton btnText="Subscribe" />
       </Box>
     </Box>
   );
