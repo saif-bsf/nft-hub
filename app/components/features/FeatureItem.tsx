@@ -14,7 +14,7 @@ const FeatureItem = (props: FeatureItemProps) => {
     <Box className="border p-10 rounded-lg flex flex-1 flex-col gap-8">
       <Image src={svg} alt="svg not found" width={50} height={50} />
       <Typography className="font-bold text-xl">{subTitle}</Typography>
-      <Typography>{description}</Typography>
+      <Typography className="text-textColor">{description}</Typography>
     </Box>
   );
 };

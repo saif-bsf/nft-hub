@@ -45,7 +45,7 @@ const MainPoster = () => {
         className="flex flex-1 flex-col justify-center main-poster-text"
       >
         <Typography className="font-bold text-5xl">{title}</Typography>
-        <Typography className="my-5">{description}</Typography>
+        <Typography className="my-5 text-textColor">{description}</Typography>
         <Button
           variant="contained"
           className="bg-primary max-w-44 rounded-3xl p-2 main-poster-button"
@@ -70,7 +70,9 @@ const MainPoster = () => {
           />
           <Box>
             <Typography className="font-bold text-2xl ml-4">47k+</Typography>
-            <Typography className="ml-4">Community members</Typography>
+            <Typography className="ml-4 text-textColor">
+              Community members
+            </Typography>
           </Box>
         </Box>
       </Box>

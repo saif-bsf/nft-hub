@@ -20,7 +20,9 @@ const TeamMemberCard = (props: TeamMemberCardProps) => {
         alt={name}
       />
       <Typography className="font-bold text-2xl text-center">{name}</Typography>
-      <Typography className="text-sm text-center">{role}</Typography>
+      <Typography className="text-sm text-center text-textColor">
+        {role}
+      </Typography>
     </Box>
   );
 };

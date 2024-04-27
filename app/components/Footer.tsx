@@ -11,14 +11,14 @@ const Footer = () => {
         <Typography variant="h6" component="div" className="text-black">
           {title}
         </Typography>
-        <Typography className=" text-gray-400">{description}</Typography>
-        <Typography className=" text-gray-400">{copyright}</Typography>
+        <Typography className="text-textColor">{description}</Typography>
+        <Typography className="text-textColor">{copyright}</Typography>
       </Box>
       <Box className="col-span-1">
         <Typography className="font-bold my-2">{quickLinks.title}</Typography>
         <Box className="flex flex-col gap-2">
           {quickLinks.links.map((link) => (
-            <Link className="no-underline text-gray-400" key={link}>
+            <Link className="no-underline text-textColor" key={link}>
               {link}
             </Link>
           ))}
@@ -30,7 +30,7 @@ const Footer = () => {
         </Typography>
         <Box className="flex flex-col gap-2">
           {communityLinks.links.map((link) => (
-            <Link className="no-underline text-gray-400" key={link}>
+            <Link className="no-underline text-textColor" key={link}>
               {link}
             </Link>
           ))}

@@ -39,7 +39,7 @@ const QuesAccordion = () => {
               <Typography className="font-bold">{item.question}</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>{item.answer}</Typography>
+              <Typography className="text-textColor">{item.answer}</Typography>
             </AccordionDetails>
           </Accordion>
         ))}

@@ -25,7 +25,7 @@ const StatsItem = (props: StatsItemProps) => {
   return (
     <Box ref={boxRef}>
       <Typography className="font-bold text-5xl mb-4">{value}</Typography>
-      <Typography>{title}</Typography>
+      <Typography className="text-textColor">{title}</Typography>
     </Box>
   );
 };

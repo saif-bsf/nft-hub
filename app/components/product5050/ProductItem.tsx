@@ -1,8 +1,9 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 
 type ProductItemProps = {
+  count: string;
   subTitle: string;
   image: string;
   description: string;
@@ -10,7 +11,7 @@ type ProductItemProps = {
 };
 
 const ProductItem = (props: ProductItemProps) => {
-  const { variant, image, subTitle, description } = props;
+  const { variant, image, subTitle, description, count } = props;
   return (
     <Box
       className={`flex flex-1 flex-col ${
@@ -27,8 +28,17 @@ const ProductItem = (props: ProductItemProps) => {
         />
       </Box>
       <Box className="flex flex-1 p-24 flex-col gap-12">
+        <Typography className="font-bold text-secondaryColor">
+          {count}
+        </Typography>
         <Typography className="text-5xl font-bold">{subTitle}</Typography>
-        <Typography>{description}</Typography>
+        <Typography className="text-textColor">{description}</Typography>
+        <Button
+          className="w-40 font-bold text-black border-none "
+          variant="outlined"
+        >
+          Learn More
+        </Button>
       </Box>
     </Box>
   );

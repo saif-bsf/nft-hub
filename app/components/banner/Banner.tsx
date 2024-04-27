@@ -20,18 +20,20 @@ const Banner = () => {
         <Typography className="font-bold text-6xl text-center">
           {title}
         </Typography>
-        <Typography className=" text-md text-center">{info}</Typography>
+        <Typography className=" text-md text-center text-textColor">
+          {info}
+        </Typography>
         <Button
           variant="contained"
           className="bg-primary max-w-44 rounded-3xl px-4"
           sx={{
-            background: 'linear-gradient(45deg, #556cd6, #ff00ea)',
+            background: "linear-gradient(45deg, #556cd6, #ff00ea)",
             borderRadius: 3,
             border: 0,
-            color: 'white',
+            color: "white",
             height: 48,
-            padding: '0 30px',
-            boxShadow: '0 3px 5px 2px rgba(0, 0, 0, .3)',
+            padding: "0 30px",
+            boxShadow: "0 3px 5px 2px rgba(0, 0, 0, .3)",
           }}
         >
           Get Started
