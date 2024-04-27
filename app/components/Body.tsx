@@ -8,6 +8,7 @@ import Stats from "./stats/Stats";
 import Product5050 from "./product5050/Product5050";
 import SubscribeBox from "./SubscribeBox";
 import Roadmap from "./roadmap/Roadmap";
+import TeamProfile from "./team-profile/TeamProfile";
 
 const Body = () => {
   return (
@@ -25,6 +26,8 @@ const Body = () => {
       <SubscribeBox />
       <Divider />
       <Roadmap />
+      <Divider />
+      <TeamProfile />
       <Divider />
     </Box>
   );

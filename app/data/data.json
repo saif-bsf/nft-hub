@@ -156,5 +156,30 @@
         ]
       }
     ]
+  },
+  "teamInfo": {
+    "title": "Meet the artists",
+    "teamMembers": [
+      {
+        "image": "/steps-jobs.png",
+        "name": "Steps Jobs",
+        "role": "Artist"
+      },
+      {
+        "image": "/andry-moray.png",
+        "name": "Andry Moray",
+        "role": "Blockchain"
+      },
+      {
+        "image": "/zaid-ed.png",
+        "name": "Zaid Ed",
+        "role": "Developer"
+      },
+      {
+        "image": "/laila-ed.png",
+        "name": "Laila Ed",
+        "role": "Marketing"
+      }
+    ]
   }
 }
