@@ -8,7 +8,7 @@ const Carousel = () => {
   const { carousel } = data;
   const { title, cards } = carousel;
   return (
-    <Box>
+    <Box id="Collection">
       <Heading title={title} />
       <Box className="flex  overflow-x-auto flex-nowrap">
         {cards.map((card) => (

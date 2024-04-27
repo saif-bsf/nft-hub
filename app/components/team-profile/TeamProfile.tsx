@@ -8,7 +8,7 @@ const TeamProfile = () => {
   const { teamInfo } = data;
   const { title, teamMembers } = teamInfo;
   return (
-    <Box>
+    <Box id="About">
       <Heading title={title} />
       <Box className="flex flex-1 flex-col md:flex-row items-center justify-between">
         {teamMembers.map((member) => (

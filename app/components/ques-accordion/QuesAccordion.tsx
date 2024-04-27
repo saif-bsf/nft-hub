@@ -22,7 +22,7 @@ const QuesAccordion = () => {
       setExpanded(isExpanded ? panel : false);
     };
   return (
-    <Box className="flex flex-1 flex-col">
+    <Box id="Blog" className="flex flex-1 flex-col">
       <Heading title={title} />
       <Box className="flex flex-1 flex-col self-center border rounded-2xl p-8 w-full md:w-1/2">
         {questionList.map((item) => (

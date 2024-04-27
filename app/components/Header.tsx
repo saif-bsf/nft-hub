@@ -2,7 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import data from "@/app/data/data.json";
-import { Link } from "@mui/material";
+import Link from "next/link";
 
 export default function Header() {
   const { header } = data;
@@ -15,7 +15,11 @@ export default function Header() {
       </Typography>
       <Box className="flex gap-5">
         {navLinks.map((link) => (
-          <Link key={link} className="text-black no-underline">
+          <Link
+            href={"#" + link}
+            key={link}
+            className="text-black no-underline"
+          >
             {link}
           </Link>
         ))}
