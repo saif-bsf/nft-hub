@@ -1,18 +1,19 @@
 import { Box, Button, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
+import data from "@/app/data/data.json";
 
 const MainPoster = () => {
+  const { mainPoster } = data;
+  const { title, description } = mainPoster;
   return (
-    <Box data-aos="fade-up" className="py-10 flex flex-1 w-full">
+    <Box
+      data-aos="fade-up"
+      className="py-10 flex flex-1 w-full flex-col md:flex-row"
+    >
       <Box className="flex flex-1 flex-col justify-center">
-        <Typography className="font-bold text-5xl">
-          High Quality NFT Collection
-        </Typography>
-        <Typography className="my-5">
-          A 890 piece custom Nfthub's collection is joining the NFT space on
-          Opensea.
-        </Typography>
+        <Typography className="font-bold text-5xl">{title}</Typography>
+        <Typography className="my-5">{description}</Typography>
         <Button
           variant="contained"
           className="bg-primary max-w-44 rounded-3xl p-2"

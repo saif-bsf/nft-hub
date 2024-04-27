@@ -3,6 +3,10 @@
     "title": "NFTHub",
     "navLinks": ["Home", "Collection", "Choose", "About", "Roadmap", "Blog"]
   },
+  "mainPoster": {
+    "title": "High Quality NFT Collection",
+    "description": "A 890 piece custom Nfthub's collection is joining the NFT space on Opensea."
+  },
   "carousel": {
     "title": "Nfthub's Collection",
     "cards": [
