@@ -10,7 +10,7 @@ const Roadmap = () => {
   return (
     <Box>
       <Heading title={title} />
-      <Box className="flex flex-wrap gap-8">
+      <Box className="flex flex-wrap flex-col  md:flex-row gap-8">
         {roadCards.map((roadCard) => (
           <RoadCard
             key={roadCard.title}

@@ -10,7 +10,7 @@ const Features = () => {
   return (
     <Box>
       <Heading title={title} />
-      <Box className="flex flex-1 gap-4">
+      <Box className="flex flex-1 gap-4 flex-col md:flex-row">
         {cards.map((card) => (
           <FeatureItem
             key={card.subTitle}

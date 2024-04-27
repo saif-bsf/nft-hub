@@ -13,8 +13,8 @@ const ProductItem = (props: ProductItemProps) => {
   const { variant, image, subTitle, description } = props;
   return (
     <Box
-      className={`flex flex-1 ${
-        variant === "image-start" ? "flex-row" : "flex-row-reverse"
+      className={`flex flex-1 flex-col ${
+        variant === "image-start" ? "md:flex-row" : "md:flex-row-reverse"
       }`}
     >
       <Box className="flex flex-1 p-12">

@@ -10,7 +10,7 @@ const TeamProfile = () => {
   return (
     <Box>
       <Heading title={title} />
-      <Box className="flex flex-1 justify-between">
+      <Box className="flex flex-1 flex-col md:flex-row items-center justify-between">
         {teamMembers.map((member) => (
           <TeamMemberCard
             key={member.name}
