@@ -86,5 +86,10 @@
         "description": "Earn ETH and BIT for all your NFTs that you sell on our marketplace. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae doloremque a officiis quasi autem!"
       }
     ]
+  },
+  "subscribeBox": {
+    "title": "Never miss a drop!",
+    "description": "Subscribe to our super-rare and exclusive drops & collectibles.",
+    "placeholder": "Enter your email"
   }
 }

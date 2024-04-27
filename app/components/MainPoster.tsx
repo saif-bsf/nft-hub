@@ -5,7 +5,7 @@ import React from "react";
 const MainPoster = () => {
   return (
     <Box data-aos="fade-up" className="py-10 flex flex-1 w-full">
-      <Box className="w-full flex flex-col justify-center">
+      <Box className="flex flex-1 flex-col justify-center">
         <Typography className="font-bold text-5xl">
           High Quality NFT Collection
         </Typography>
@@ -13,7 +13,10 @@ const MainPoster = () => {
           A 890 piece custom Nfthub's collection is joining the NFT space on
           Opensea.
         </Typography>
-        <Button variant="contained" className="bg-primary max-w-44 rounded-2xl">
+        <Button
+          variant="contained"
+          className="bg-primary max-w-44 rounded-3xl p-2"
+        >
           View in OPENSEA
         </Button>
         <Box className="flex my-8">
@@ -29,8 +32,9 @@ const MainPoster = () => {
           </Box>
         </Box>
       </Box>
-      <Box className="w-full">
+      <Box className="flex flex-1">
         <Image
+          className="flex flex-1"
           src="/main-poster.png"
           width={500}
           height={300}
