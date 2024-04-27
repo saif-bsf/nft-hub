@@ -9,6 +9,7 @@ import Product5050 from "./product5050/Product5050";
 import SubscribeBox from "./SubscribeBox";
 import Roadmap from "./roadmap/Roadmap";
 import TeamProfile from "./team-profile/TeamProfile";
+import QuesAccordion from "./ques-accordion/QuesAccordion";
 
 const Body = () => {
   return (
@@ -28,6 +29,8 @@ const Body = () => {
       <Roadmap />
       <Divider />
       <TeamProfile />
+      <Divider />
+      <QuesAccordion />
       <Divider />
     </Box>
   );
