@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NFT Hub
+
+Welcome to NFT Hub, a platform dedicated to the exploration and trade of Non-Fungible Tokens (NFTs). This project is built on Next.js and incorporates a variety of modern web technologies to deliver a smooth, interactive experience.
 
 ## Getting Started
 
-First, run the development server:
+To get started with NFT Hub, follow the instructions below to set up the project on your local machine for development and testing purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Before you begin, ensure you have the following installed:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Node.js (version 18 or higher)
+- npm (which comes with Node.js)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installation
 
-## Learn More
+1. Clone the repository to your local machine:
 
-To learn more about Next.js, take a look at the following resources:
+   ```sh
+   git clone https://github.com/your-username/nft-hub.git
+   Navigate to the project directory:
+   cd nft-hub
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   Install the required dependencies:
+   npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   Start the development server:
+   npm run dev
 
-## Deploy on Vercel
+   This will start the Next.js development server on http://localhost:3000.
+   Open your browser and visit http://localhost:3000 to view the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   Features
+   Next.js: For SSR and SEO-optimized pages and API routes.
+   Emotion: For styled components using the CSS-in-JS paradigm.
+   Material UI: A React UI framework for faster and easier web development.
+   AOS: Animate on scroll library to animate elements as you scroll down the page.
+   Framer Motion: For advanced animations.
+   GSAP: Professional-grade animation for the modern web.
+   Locomotive Scroll: For smooth scrolling and parallax effects.
+   Scripts
+   npm run dev: Runs the application in the development mode.
+   npm run build: Builds the app for production to the .next folder.
+   npm run start: Starts the production server.
+   npm run lint: Lints and fixes files.
+   Contributing
+   Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+License
+Distributed under the MIT License. See LICENSE for more information.
+
+Contact
+Your Name - Saif Sheikh
+Email - saifisshaik@gmail.com
+Linkedin - https://www.linkedin.com/in/saif-sheikh/
+
+Project Link: https://github.com/saif-bsf/nft-hub
+
+Acknowledgements
+Next.js Documentation
+Material UI
+GSAP
+Framer Motion
+...and many more! """
