@@ -2,7 +2,7 @@ import { Box, Button, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 import data from "@/app/data/data.json";
-import GradientButton from "../basic-components/GradientButton";
+import GradientButton from "../../basic-components/GradientButton";
 
 const Banner = () => {
   const { banner } = data;

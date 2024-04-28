@@ -5,7 +5,7 @@ import React, { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import data from "@/app/data/data.json";
-import GradientButton from "./basic-components/GradientButton";
+import GradientButton from "../basic-components/GradientButton";
 
 const MainPoster = () => {
   const background = useRef(null);

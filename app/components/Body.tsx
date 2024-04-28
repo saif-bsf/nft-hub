@@ -2,7 +2,7 @@
 import { Box } from "@mui/material";
 import React from "react";
 import MainPoster from "./MainPoster";
-import Divider from "./basic-components/Divider";
+import Divider from "../basic-components/Divider";
 import Carousel from "./carousel/Carousel";
 import Features from "./features/Features";
 import Stats from "./stats/Stats";

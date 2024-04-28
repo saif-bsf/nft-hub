@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useState } from "react";
-import Heading from "../basic-components/Heading";
+import Heading from "../../basic-components/Heading";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import data from "@/app/data/data.json";
 

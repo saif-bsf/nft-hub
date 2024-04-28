@@ -1,7 +1,7 @@
 import React from "react";
 import data from "@/app/data/data.json";
 import { Box } from "@mui/material";
-import Heading from "../basic-components/Heading";
+import Heading from "../../basic-components/Heading";
 import TeamMemberCard from "./TeamMemberCard";
 
 const TeamProfile = () => {

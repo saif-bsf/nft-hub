@@ -1,8 +1,8 @@
 import { Box, Button, TextField, Typography } from "@mui/material";
 import React from "react";
 import data from "@/app/data/data.json";
-import Heading from "./basic-components/Heading";
-import GradientButton from "./basic-components/GradientButton";
+import Heading from "../basic-components/Heading";
+import GradientButton from "../basic-components/GradientButton";
 
 const SubscribeBox = () => {
   const { subscribeBox } = data;

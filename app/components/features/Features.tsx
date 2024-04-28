@@ -2,7 +2,7 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import data from "@/app/data/data.json";
 import FeatureItem from "./FeatureItem";
-import Heading from "../basic-components/Heading";
+import Heading from "../../basic-components/Heading";
 
 const Features = () => {
   const { features } = data;

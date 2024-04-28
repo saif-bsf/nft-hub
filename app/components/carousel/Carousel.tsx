@@ -2,8 +2,8 @@ import { Box } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import data from "@/app/data/data.json";
 import Card from "./Card";
-import Heading from "../basic-components/Heading";
-import GradientButton from "../basic-components/GradientButton";
+import Heading from "../../basic-components/Heading";
+import GradientButton from "../../basic-components/GradientButton";
 
 const Carousel = () => {
   const { carousel } = data;
