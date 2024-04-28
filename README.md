@@ -13,6 +13,10 @@ Before you begin, ensure you have the following installed:
 - Node.js (version 18 or higher)
 - npm (which comes with Node.js)
 
+### Mock Data
+
+All of the data is mocked from data.json file. If required to change anything, please refer the /data/data.json file.
+
 ### Installation
 
 1. Clone the repository to your local machine:
