@@ -1,9 +1,15 @@
+"use client";
 import { Button } from "@mui/material";
 import React from "react";
+import { motion } from "framer-motion";
+
+const MotionButton = motion(Button);
 
 const GradientButton = ({ btnText }: { btnText: string }) => {
   return (
-    <Button
+    <MotionButton
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
       variant="contained"
       className="py-2 max-w-56 rounded-3xl"
       sx={{
@@ -17,7 +23,7 @@ const GradientButton = ({ btnText }: { btnText: string }) => {
       }}
     >
       {btnText}
-    </Button>
+    </MotionButton>
   );
 };
 

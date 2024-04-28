@@ -1,5 +1,5 @@
 "use client";
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 import React, { useEffect, useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
@@ -36,10 +36,7 @@ const MainPoster = () => {
   const { mainPoster } = data;
   const { title, description } = mainPoster;
   return (
-    <Box
-      data-aos="fade-up"
-      className="py-10 flex flex-1 w-full flex-col md:flex-row"
-    >
+    <Box className="py-10 flex flex-1 w-full flex-col md:flex-row">
       <Box
         data-scroll
         data-scroll-speed="0.1"
@@ -47,21 +44,6 @@ const MainPoster = () => {
       >
         <Typography className="font-bold text-5xl">{title}</Typography>
         <Typography className="my-5 text-textColor">{description}</Typography>
-        {/* <Button
-          variant="contained"
-          className="bg-primary max-w-44 rounded-3xl p-2 main-poster-button"
-          sx={{
-            background: "linear-gradient(45deg, #556cd6, #ff00ea)",
-            borderRadius: 3,
-            border: 0,
-            color: "white",
-            height: 48,
-            padding: "0 30px",
-            boxShadow: "0 3px 5px 2px rgba(0, 0, 0, .3)",
-          }}
-        >
-          View in OPENSEA
-        </Button> */}
         <GradientButton btnText="View in OPENSEA" />
         <Box className="flex my-8">
           <Image

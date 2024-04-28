@@ -1,5 +1,6 @@
 "use client";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   Accordion,
   AccordionDetails,
@@ -7,12 +8,19 @@ import {
   Box,
   Typography,
 } from "@mui/material";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Heading from "../../basic-components/Heading";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import data from "@/app/data/data.json";
 
 const QuesAccordion = () => {
+  useEffect(() => {
+    AOS.init({
+      // Global settings:
+      mirror: true,
+      anchorPlacement: "top-bottom",
+    });
+  }, []);
   const { qAndA } = data;
   const { title, questionList } = qAndA;
   const [expanded, setExpanded] = useState<number | false>(false);
@@ -22,7 +30,7 @@ const QuesAccordion = () => {
       setExpanded(isExpanded ? panel : false);
     };
   return (
-    <Box id="Blog" className="flex flex-1 flex-col">
+    <Box data-aos="fade-up" id="Blog" className="flex flex-1 flex-col">
       <Heading title={title} />
       <Box className="flex flex-1 flex-col self-center border rounded-2xl p-8 w-full md:w-1/2">
         {questionList.map((item) => (

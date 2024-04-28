@@ -10,8 +10,7 @@ export const useAOS = (): void => {
       duration: 1000,
       once: true,
     });
-    // Adding refresh might be redundant since init handles it usually
   }, []);
 
-  return; // Explicitly indicate return for clarity, even though it's void
+  return;
 };
